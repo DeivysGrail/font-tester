@@ -1,0 +1,19 @@
+@import "css/input.css";
+@import "css/container.css";
+
+body {
+    height: 1500px;
+    position: relative;
+    overflow-x: hidden;
+    background: #000000eb;
+}
+
+
+
+::-webkit-scrollbar {
+visibility: hidden;
+opacity: 0;
+}
+
+
+

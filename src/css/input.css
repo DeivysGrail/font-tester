@@ -1,0 +1,46 @@
+
+.input {
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    position: fixed;
+    margin-top: 50px;
+    z-index: 2;
+    height: 50px;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    color: white;
+    font-family: pixelFont, serif;
+    border: solid yellow 1px;
+    border-radius: 15px;
+}
+
+button {
+    border-radius: 50%;
+    top:80px;
+    right:300px;
+    position: fixed;
+    background-size: cover;
+    opacity: 0.6;
+    filter: drop-shadow(0 0 20px deeppink);
+    box-shadow: 0 0 30px 1px cyan        ;
+    background-image: url("../icons/pause-button-svgrepo-com.svg");
+    height: 100px;
+
+    width: 100px;
+}
+
+/*pixelFont*/
+ @font-face {
+     src: url("../font/PixeloidMono-VGj6x.ttf") format("opentype");
+    font-family: pixelFont;
+ }
+
+
+
